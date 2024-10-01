@@ -18,15 +18,15 @@ This repository demonstrates the application of SOLID principles in Dart, focusi
 
 SOLID is an acronym that stands for five design principles intended to improve software design and reduce the risk of software rot. The principles are:
 
-1. **S**ingle Responsibility Principle (SRP)
-2. **O**pen/Closed Principle (OCP)
-3. **L**iskov Substitution Principle (LSP)
-4. **I**nterface Segregation Principle (ISP)
-5. **D**ependency Inversion Principle (DIP)
+1. **S**ingle Responsibility Principle (**`SRP`**)
+2. **O**pen/Closed Principle (**`OCP`**)
+3. **L**iskov Substitution Principle (**`LSP`**)
+4. **I**nterface Segregation Principle (**`ISP`**)
+5. **D**ependency Inversion Principle (**`DIP`**)
 
 By following these principles, developers can create systems that are easier to manage, scale, and understand.
 
-## Single Responsibility Principle (SRP)
+## Single Responsibility Principle (**`SRP`**)
 
 The **Single Responsibility Principle** states that a class should have only one reason to change, meaning it should have only one job or responsibility. This principle promotes the idea that a class should encapsulate only one part of the functionality provided by the software.
 
@@ -65,7 +65,7 @@ class EmailService {
 }
 ```
 
-## Open/Closed Principle (OCP)
+## Open/Closed Principle (**`OCP`**)
 
 The **Open/Closed Principle** states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This principle encourages developers to write code that can be extended with new features without changing existing code.
 
@@ -112,7 +112,7 @@ class Rectangle extends Shape {
 }
 ```
 
-## Liskov Substitution Principle (LSP)
+## Liskov Substitution Principle (**`LSP`**)
 
 The **Liskov Substitution Principle** states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. This principle ensures that a subclass can stand in for its superclass without issues.
 
@@ -170,7 +170,7 @@ class Square implements Shape {
 }
 ```
 
-## Interface Segregation Principle (ISP)
+## Interface Segregation Principle (**`ISP`**)
 
 The **Interface Segregation Principle** states that no client should be forced to depend on methods it does not use. This principle encourages developers to create smaller, more specific interfaces rather than large, general-purpose ones.
 
@@ -223,7 +223,7 @@ class Engineer implements Worker, Eater {
 }
 ```
 
-## Dependency Inversion Principle (DIP)
+## Dependency Inversion Principle (**`DIP`**)
 
 The **Dependency Inversion Principle** states that high-level modules should not depend on low-level modules, but both should depend on abstractions. This principle promotes the use of interfaces or abstract classes to decouple dependencies.
 
@@ -282,3 +282,6 @@ class UserService {
 
 By adhering to SOLID principles, Dart developers can create more flexible, maintainable, and scalable applications. Each principle contributes to code that is easier to understand, extend, and refactor. Implementing these principles not only enhances the quality of the software but also improves collaboration and reduces the cost of changes in the long run.
 
+## Contact
+
+For any questions or feedback, please reach out via email: [gcfjxvkj@gmail.com](gcfjxvkj@gmail.com)
